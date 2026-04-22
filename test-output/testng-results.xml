@@ -2,52 +2,20 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-21T20:39:08 IST" name="Suite" finished-at="2026-04-21T20:39:20 IST" duration-ms="11634">
+  <suite started-at="2026-04-22T10:23:28 IST" name="Default suite" finished-at="2026-04-22T10:23:43 IST" duration-ms="14622">
     <groups>
     </groups>
-    <test started-at="2026-04-21T20:39:08 IST" name="Test" finished-at="2026-04-21T20:39:20 IST" duration-ms="11634">
+    <test started-at="2026-04-22T10:23:28 IST" name="Default test" finished-at="2026-04-22T10:23:43 IST" duration-ms="14622">
       <class name="com.test.DemoNinja">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:08 IST" name="beforeTest" finished-at="2026-04-21T20:39:08 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:28 IST" name="beforeTest" finished-at="2026-04-22T10:23:28 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:09 IST" name="beforeMethod" finished-at="2026-04-21T20:39:12 IST" duration-ms="2908" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:29 IST" name="beforeMethod" finished-at="2026-04-22T10:23:30 IST" duration-ms="1110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:09 IST" name="beforeMethod" finished-at="2026-04-21T20:39:12 IST" duration-ms="2908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:09 IST" name="beforeMethod" finished-at="2026-04-21T20:39:12 IST" duration-ms="2908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:09 IST" name="beforeMethod" finished-at="2026-04-21T20:39:12 IST" duration-ms="2908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:09 IST" name="beforeMethod" finished-at="2026-04-21T20:39:12 IST" duration-ms="2906" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="inValLogin(java.lang.String,java.lang.String)[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:12 IST" name="inValLogin" data-provider="invalidData" finished-at="2026-04-21T20:39:18 IST" duration-ms="5885" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2k22aids24@kiot.ac.in]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[titoo123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inValLogin -->
-        <test-method signature="ValLogin(java.lang.String,java.lang.String)[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:12 IST" name="ValLogin" data-provider="validData" finished-at="2026-04-21T20:39:20 IST" duration-ms="7718" status="PASS">
+        <test-method signature="ValLogin(java.lang.String,java.lang.String)[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:30 IST" name="ValLogin" data-provider="validData" finished-at="2026-04-22T10:23:33 IST" duration-ms="3007" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +31,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValLogin -->
-        <test-method signature="inValSearch(java.lang.String)[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:12 IST" name="inValSearch" data-provider="inValSearch" finished-at="2026-04-21T20:39:16 IST" duration-ms="4361" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:33 IST" name="afterMethod" finished-at="2026-04-22T10:23:33 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:33 IST" name="beforeMethod" finished-at="2026-04-22T10:23:34 IST" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:33 IST" name="beforeMethod" finished-at="2026-04-22T10:23:34 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="inValLogin(java.lang.String,java.lang.String)[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:34 IST" name="inValLogin" data-provider="invalidData" finished-at="2026-04-22T10:23:38 IST" duration-ms="4389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[titooram123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sriram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValLogin -->
+        <test-method signature="inValLogin(java.lang.String,java.lang.String)[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:34 IST" name="inValLogin" data-provider="invalidData" finished-at="2026-04-22T10:23:38 IST" duration-ms="4278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2k22aids24@kiot.ac.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[titoo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:38 IST" name="afterMethod" finished-at="2026-04-22T10:23:39 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:38 IST" name="afterMethod" finished-at="2026-04-22T10:23:38 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:39 IST" name="beforeMethod" finished-at="2026-04-22T10:23:39 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="inValSearch(java.lang.String)[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:39 IST" name="inValSearch" data-provider="inValSearch" finished-at="2026-04-22T10:23:40 IST" duration-ms="1172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,23 +98,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValSearch -->
-        <test-method signature="inValLogin(java.lang.String,java.lang.String)[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:12 IST" name="inValLogin" data-provider="invalidData" finished-at="2026-04-21T20:39:19 IST" duration-ms="7367" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[titooram123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sriram123]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:40 IST" name="afterMethod" finished-at="2026-04-22T10:23:41 IST" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inValLogin -->
-        <test-method signature="valSearch(java.lang.String)[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:12 IST" name="valSearch" data-provider="valSearch" finished-at="2026-04-21T20:39:16 IST" duration-ms="4333" status="PASS">
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:41 IST" name="beforeMethod" finished-at="2026-04-22T10:23:41 IST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="valSearch(java.lang.String)[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:41 IST" name="valSearch" data-provider="valSearch" finished-at="2026-04-22T10:23:42 IST" duration-ms="999" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,31 +117,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valSearch -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:16 IST" name="afterMethod" finished-at="2026-04-21T20:39:17 IST" duration-ms="1029" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:42 IST" name="afterMethod" finished-at="2026-04-22T10:23:43 IST" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:16 IST" name="afterMethod" finished-at="2026-04-21T20:39:17 IST" duration-ms="1014" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:18 IST" name="afterMethod" finished-at="2026-04-21T20:39:18 IST" duration-ms="225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:19 IST" name="afterMethod" finished-at="2026-04-21T20:39:20 IST" duration-ms="187" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:20 IST" name="afterMethod" finished-at="2026-04-21T20:39:20 IST" duration-ms="161" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-21T20:39:20 IST" name="afterTest" finished-at="2026-04-21T20:39:20 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.DemoNinja@5542c4ed]" started-at="2026-04-22T10:23:43 IST" name="afterTest" finished-at="2026-04-22T10:23:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.test.DemoNinja -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

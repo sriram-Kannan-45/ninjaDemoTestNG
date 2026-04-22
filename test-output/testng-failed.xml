@@ -7,9 +7,9 @@
         <methods>
           <include name="afterTest"/>
           <include name="beforeMethod"/>
-          <include name="beforeTest"/>
-          <include name="inValSearch" invocation-numbers="0"/>
           <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="inValLogin" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.test.DemoNinja -->
     </classes>

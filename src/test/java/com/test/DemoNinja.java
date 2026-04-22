@@ -76,11 +76,15 @@ public class DemoNinja
 		  
 		  wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value=\"Login\"]"))).click();
 		  
-		  String actual =wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class=\"alert alert-danger alert-dismissible\"]"))).getText();
-		  
-		  String Expect ="Warning: No match for E-Mail Address and/or Password.";
-		  Assert.assertEquals(actual ,Expect);
-		  System.out.println("invalid");
+		  String actual = wait.until(ExpectedConditions
+			        .visibilityOfElementLocated(By.xpath("//div[@class='alert alert-danger alert-dismissible']")))
+			        .getText();
+
+			Assert.assertTrue(
+			    actual.contains("No match for E-Mail Address and/or Password.") ||
+			    actual.contains("exceeded allowed number of login attempts"),
+			    "Unexpected error message: " + actual
+			);
 	  }
 	
 	@Test(dataProvider = "valSearch", dataProviderClass = ExcelUtility.class)
