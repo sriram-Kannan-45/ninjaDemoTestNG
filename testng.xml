@@ -3,7 +3,7 @@
 <suite name="Suite"  parallel="methods" data-provider-thread-count="5">
   <test name="Test"> 	
    <classes>
-      <class name="com.test.demoBlaze"/>
+      <class name="com.newTest.demoBlaze"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
